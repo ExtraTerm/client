@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.seuic.sell.activity.SellItemActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="#ECE7ED">
+
+        <ImageView
+            android:id="@+id/iv_touxiang"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@mipmap/touxiang" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_touxiang"
+            android:text="夫庸四"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/arrow" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#22000000"/>
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:background="#ECE7ED"
+        android:text="我的主页"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#22000000"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:background="#ECE7ED"
+        android:text="我的订单"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#22000000"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:background="#ECE7ED"
+        android:text="我赞过的"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#22000000"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:background="#ECE7ED"
+        android:text="关于艺购"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#22000000"/>
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:background="#ECE7ED"
+        android:text="退出当前账号"/>
+</LinearLayout>

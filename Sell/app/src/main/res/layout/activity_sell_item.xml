@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.seuic.sell.activity.SellItemActivity">
+
+    <TextView android:text="Sell" android:layout_width="fill_parent"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="#ECE7ED"
+        android:layout_height="40dp" />
+    <EditText
+        android:id="@+id/et_describe"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="标签描述"/>
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="位置"/>
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="时间"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_pirce"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:hint="价格"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="元"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/iv_add"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/iv_home"
+        android:layout_marginLeft="30dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/add"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="确定发布"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonclickstyle2"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/bt_issuance"
+        />
+
+</LinearLayout>

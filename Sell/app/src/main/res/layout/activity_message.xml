@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.seuic.sell.activity.SellItemActivity">
+
+    <TextView android:text="消息" android:layout_width="fill_parent"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="#ECE7ED"
+        android:layout_height="40dp" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/iv_touxiang"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@mipmap/liuyan" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_touxiang"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_touxiang"
+            android:text="留言"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_touxiang"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_touxiang"
+            android:text="还没有收到留言哦"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/arrow" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#22000000"/>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/iv_touxiang1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@mipmap/zanshu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_touxiang1"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_touxiang1"
+            android:text="收到的赞"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_touxiang1"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_touxiang1"
+            android:text="还没有收到赞哦"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/arrow" />
+
+    </RelativeLayout>
+</LinearLayout>

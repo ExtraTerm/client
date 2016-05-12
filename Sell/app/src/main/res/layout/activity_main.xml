@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/login"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/artgo"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/art"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp">
+        <TextView
+            android:id="@+id/tv_zhuce"
+            android:gravity="center_horizontal"
+            android:layout_width="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:text="注册"
+            android:textSize="25sp"
+            android:background="@drawable/control_style"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_denglu"
+            android:gravity="center_horizontal"
+            android:layout_width="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:text="登录"
+            android:textSize="25sp"
+            android:background="@drawable/control_style"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.seuic.sell.activity.SellItemActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:background="#ECE7ED">
+
+        <ImageView
+            android:id="@+id/iv_touxiang"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@mipmap/touxiang" />
+
+        <ImageView
+            android:id="@+id/iv_dengji"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/iv_touxiang"
+            android:layout_marginLeft="25dp"
+            android:gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@mipmap/dengji" />
+        <TextView
+            android:id="@+id/tv_dengji"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/iv_dengji"
+            android:layout_marginLeft="30dp"
+            android:text="4"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tv_fenxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dengji"
+            android:layout_marginLeft="25dp"
+            android:text="分享"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_maijiadengji"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/iv_dengji"
+            android:layout_toRightOf="@+id/iv_touxiang"
+            android:layout_marginLeft="30dp"
+            android:text="3"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tv_maijia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dengji"
+            android:layout_alignLeft="@+id/tv_maijiadengji"
+            android:text="买家"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/iv_touxiang"
+            android:layout_toRightOf="@+id/iv_touxiang"
+            android:text="夫庸四"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_changzhutishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_touxiang"
+            android:layout_below="@+id/tv_name"
+            android:text="常住"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_changzhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_changzhutishi"
+            android:layout_below="@+id/tv_name"
+            android:text="北京"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_beizantishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_touxiang"
+            android:layout_below="@+id/tv_changzhutishi"
+            android:text="被赞"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_beizan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_beizantishi"
+            android:layout_below="@+id/tv_changzhutishi"
+            android:text="123次"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_qianming"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_changzhu"
+            android:layout_centerInParent="true"
+            android:text="在平凡中发现美丽"
+            android:textSize="18sp" />
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#22000000"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:text="摄影"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:background="#ECE7ED"/>
+    <ListView
+        android:id="@+id/lv_maiitem"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+</LinearLayout>

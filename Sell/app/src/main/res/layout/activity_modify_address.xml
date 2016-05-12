@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.seuic.sell.activity.SellItemActivity">
+
+    <TextView
+        android:background="#ECE7ED"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="修改常住地"
+        android:textSize="24sp"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/iv_touxiang"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/touxiang" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_modifyitem"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal"
+        android:hint="请输入常驻地"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp">
+        <ImageView
+            android:id="@+id/iv_left"
+            android:gravity="center_horizontal"
+            android:layout_width="50dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/control_style"
+            android:src="@mipmap/l"/>
+        <ImageView
+            android:id="@+id/iv_right"
+            android:gravity="center_horizontal"
+            android:layout_width="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/control_style"
+            android:src="@mipmap/r"/>
+    </RelativeLayout>
+
+</LinearLayout>

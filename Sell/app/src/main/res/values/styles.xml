@@ -1,0 +1,318 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- LinearLayout Style -->
+    <style name="LinearLayout_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LinearLayout_Style_Match_Width">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LinearLayout_Style_Match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LL_Style_Height_On_Weight_Ver">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LL_Style_Ver" parent="LinearLayout_Style">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LL_Style_Hor" parent="LinearLayout_Style">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LL_Style_Match_Width_Ver" parent="LinearLayout_Style_Match_Width">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LL_Style_Match_Width_Hor" parent="LinearLayout_Style_Match_Width">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LL_Style_Match_Width_Hor_On_Margin" parent="LL_Style_Match_Width_Hor">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="LL_Style_Hor_On_Weight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LL_Style_Ver_On_Weight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LL_Style_Match_Width_Hor_Header" parent="LL_Style_Match_Width_Hor">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">#ff4883ed</item>
+    </style>
+
+    <style name="LL_Style_Match_Width_Hor_Header2" parent="LL_Style_Match_Width_Hor">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">#ff4883ed</item>
+    </style>
+
+    <style name="LL_Style_Match_Width_Hor_Header3" parent="LL_Style_Match_Width_Hor">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="LL_Match_Container" parent="LinearLayout_Style_Match">
+        <item name="android:padding">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayout_Style_Hor_Body">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="LinearLayout_Style_Ver_Body">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="LinearLayout_Style_Hor_Normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="LinearLayout_Style_Hor_Normal1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+
+    <!-- RelativeLayout Style -->
+    <style name="RelativeLayout_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RelativeLayout_Style_Match_Width">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RL_Style_Match_Width_On_Margin" parent="RelativeLayout_Style_Match_Width">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="RelativeLayout_In_LinearLayout_Ver_Style" >
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="RelativeLayout_Style_Setting">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="RL_Style_Header" parent="RelativeLayout_Style_Match_Width">
+        <item name="android:background">#ED7020</item>
+    </style>
+
+
+    <!-- View -->
+    <style name="View_Tab_Split_Style">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">#ffd3d3d3</item>
+    </style>
+
+    <!-- TextView Style -->
+    <style name="TextView_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TV_Style_Width_On_Weight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TV_Style_On_Margin" parent="TextView_Style">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="TextView_Style_Scan_Details" parent="TextView_Style">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextView_Style_Scan_Details2" parent="TextView_Style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextView_Style_Match_Width">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView_Style_Header" parent="TextView_Style">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextView_Style_Login" parent="TextView_Style">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextView_Style_Tag">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextView_Style_Tag2">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextView_Style_Tag3">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextView_Style_Scan_Up" parent="TextView_Style">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <!-- Button Style -->
+    <style name="Button_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Button_Style_TextSize_18" parent="Button_Style">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BTN_Style_Match_Width_On_Weight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Button_Style_Normal" parent="Button_Style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="Button_Style_Normal_In_Truck" parent="Button_Style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="Button_Style_Settings" parent="Button_Style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_width">140dp</item>
+    </style>
+
+    <style name="Button_Style_AlignRight_Edittext">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_normal_style</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+
+    <style name="RadioButton_Style_Match_Width">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <!-- Custom View Style -->
+    <style name="ButtonWithImage_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="List" parent="android:Widget.ListView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:divider">@color/darkgrey</item>
+        <item name="android:dividerHeight">1px</item>
+
+    </style>
+
+</resources>
